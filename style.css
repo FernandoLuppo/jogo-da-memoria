@@ -7,10 +7,16 @@
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background-color: #c7cdd3;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 80px;
 }
 
 #gameBoard {
@@ -84,4 +90,23 @@ body {
   margin-top: 10px;
   cursor: pointer;
   background-color: #29db32;
+}
+
+@media screen and (max-width: 710px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  #gameBoard {
+    gap: 10px;
+  }
+
+  .card {
+    width: 80px;
+    height: 80px;
+  }
+
+  .card-front > img {
+    width: 50px;
+  }
 }
