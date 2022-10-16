@@ -14,7 +14,7 @@
 <p>CSS.
 <p>HTML.
   
-<h4>Link para testar a página: https://jogo-da-velha-luppotw.netlify.app
+<h4>Link para testar a página: https://jogo-da-memoria-luppotw.netlify.app
    
 <br><br>
    
